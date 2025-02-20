@@ -33,5 +33,9 @@ override.tf.json
 *.tmp
 *.DS_Store
 
+# Ignore Terraform provider binaries
+.terraform/
+.terraform.lock.hcl
+
 # Ignore sensitive files
 !setup.bash
