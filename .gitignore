@@ -35,7 +35,8 @@ override.tf.json
 
 # Ignore Terraform provider binaries
 .terraform/
-.terraform.lock.hcl
+terraform.tfstate
+terraform.tfstate.*
 
 # Ignore sensitive files
 !setup.bash
